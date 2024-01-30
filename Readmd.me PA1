@@ -1,0 +1,27 @@
+Readme.me for the "SimpleFileCleaner.java" program.
+1. Compile the Java software: `{{ javavac SimpleFileCleaner.java}
+
+2. Launch the program that has been compiled using the input and output directories as arguments:
+    For instance, {{{ java SimpleFileCleaner Dataset1 CleanedDataset1 \input_directory> <output_directory>
+
+   The path to the directory containing the text files that need to be cleaned is indicated by {<input_directory>}.
+   - {<output_directory>}: The path to the directory containing the text files after cleaning.
+
+3. The application will purify the data within the mentioned datasets and will give out the required values of the performance evaluations in the following way. 
+
+## Performance Evaluations
+Following file cleanup, the application shows the following performance metrics:
+
+
+**Total bytes cleared**: The total amount of cleaned bytes across all files.
+- **Total cleaning time in ms**: The total milliseconds required to clean all files.
+- **Speed**: Megabytes per second, or MiB/s, is the cleaning speed.
+
+Readme.md for the "WordCounter.java" Program;
+Compile: Compile the Java source code using a Java compiler
+javac WordCounter.java
+
+java WordCounter <input_directory> <output_directory>
+Replace <input_directory> with the path to the directory containing input files and <output_directory> with the path to store the sorted output files.
+The ooutput gives out the count and the time it takes for the program to count the number of words.
+
